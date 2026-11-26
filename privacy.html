@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>山めぐり プライバシーポリシー</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d8dee4; --accent: #4b5a3a; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1215; --fg: #e6e8ea; --muted: #9aa4ae; --line: #2a3036; --accent: #a9c08a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.8; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 36px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); color: var(--accent); }
+  p, li { font-size: 1rem; }
+  ul { padding-left: 1.3em; }
+  .meta { color: var(--muted); font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { width: 34%; }
+  a { color: var(--accent); }
+  .en { color: var(--muted); font-size: .92rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>山めぐり プライバシーポリシー</h1>
+  <p class="meta">制定日: 2026年11月25日</p>
+
+  <p>
+    「山めぐり」(以下「本アプリ」)は、登山の記録を端末の中だけで扱うことを基本にしたアプリです。
+    本アプリが扱う情報と、その取り扱いについて説明します。
+  </p>
+
+  <h2>1. 基本方針</h2>
+  <ul>
+    <li>記録などのデータは、すべてお使いの端末の中に保存します。</li>
+    <li>開発者はサーバーを持っておらず、あなたのデータを開発者へ送信することはありません。開発者があなたのデータを見ることもできません。</li>
+    <li>広告、アクセス解析、クラッシュ収集などの外部サービスは使っていません。</li>
+    <li>アカウント登録は不要です。</li>
+  </ul>
+
+  <h2>2. 本アプリが扱う情報</h2>
+  <table>
+    <tr><th>位置情報</th><td>地図への現在地の表示と、山行の記録(軌跡・距離・標高)のために使います。記録中は、画面を消していても通知を表示した状態で位置情報を取得します。記録していないときに裏で位置情報を取得することはありません。</td></tr>
+    <tr><th>山行の記録</th><td>軌跡、日時、距離、累積標高、山行の名前など。端末内にのみ保存します。</td></tr>
+    <tr><th>百名山の登頂記録</th><td>登頂した山と登頂日。端末内にのみ保存します。</td></tr>
+    <tr><th>保存した地図</th><td>オフラインで使うために保存した地図タイル。端末内にのみ保存します。</td></tr>
+    <tr><th>センサーの値</th><td>方位(コンパス)と気圧(標高の計算)。その場で計算に使うだけで、保存や送信はしません。</td></tr>
+    <tr><th>設定</th><td>配色、地図の種類、最後に表示した地図の位置など。端末内にのみ保存します。</td></tr>
+  </table>
+
+  <h2>3. 通信について</h2>
+  <p>
+    本アプリのインターネット通信は、国土地理院の地図タイル(地理院タイル)の取得だけです。
+    地図を表示・保存するときに、国土地理院のサーバーへ地図画像を要求します。このとき、通常のWebサイトの閲覧と同様に、
+    IPアドレスや表示する地図の範囲が国土地理院のサーバーに伝わります。あなたの記録や位置情報そのものを送ることはありません。
+  </p>
+
+  <h2>4. バックアップと機種変更</h2>
+  <ul>
+    <li><strong>ファイルに保存</strong>: 設定画面から、記録を1つのファイルに書き出せます。保存先はあなたが選びます。本アプリがそのファイルをどこかへ送ることはありません。</li>
+    <li><strong>Android の自動バックアップ</strong>: 本アプリのデータは、Google アカウントへの自動バックアップの対象にしていません。</li>
+    <li><strong>機種変更時の端末間転送</strong>: Android の機能で古い端末から新しい端末へ直接データを移すとき(ケーブルや無線での引き継ぎ)は、記録と設定が新しい端末に引き継がれます。</li>
+    <li><strong>Google ドライブへのバックアップ(今後対応予定)</strong>: 対応した場合は、あなた自身の Google アカウントでログインし、そのアカウントの Google ドライブのアプリ専用領域に保存します。この領域は本アプリからしか読み書きできず、開発者が内容を見ることはできません。</li>
+  </ul>
+
+  <h2>5. 権限について</h2>
+  <ul>
+    <li><strong>位置情報</strong>: 現在地の表示と山行の記録に使います。最初に使うときに、理由を説明してから許可をお願いします。</li>
+    <li><strong>通知</strong>: 記録中と地図の保存中に、状態を通知に表示するために使います。</li>
+    <li><strong>インターネット</strong>: 地図タイルの取得に使います。</li>
+  </ul>
+  <p>許可しない場合でも、その機能以外は使えます。許可は端末の設定からいつでも取り消せます。</p>
+
+  <h2>6. データの削除</h2>
+  <p>
+    山行の記録や登頂記録は、アプリ内でいつでも削除できます。保存した地図は「設定 &gt; 地図のダウンロード管理」から削除できます。
+    本アプリをアンインストールすると、端末内のデータはすべて削除されます(書き出したバックアップファイルは残ります)。
+  </p>
+
+  <h2>7. 子どもの利用</h2>
+  <p>本アプリは個人情報を収集しないため、年齢にかかわらず同じ取り扱いです。</p>
+
+  <h2>8. このポリシーの変更</h2>
+  <p>内容を変更する場合は、このページを更新し、制定日・改定日を記載します。</p>
+
+  <h2>9. お問い合わせ</h2>
+  <p>本アプリに関するお問い合わせは、次のメールアドレスまでお願いします。<br>
+    <a href="mailto:azlibra.yolo@gmail.com">azlibra.yolo@gmail.com</a></p>
+
+  <h2>出典</h2>
+  <p>地図データ: <a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院「地理院タイル」</a></p>
+
+  <h2 lang="en">Summary (English)</h2>
+  <p class="en" lang="en">
+    Yamameguri stores all data (tracks, summit records, saved maps, settings) only on your device.
+    The developer runs no server and never receives your data. No ads, analytics or crash reporting SDKs are used.
+    Location is used only to show your position and to record hikes (with a visible notification while recording).
+    The only network access is downloading map tiles from the Geospatial Information Authority of Japan (GSI).
+    App data is excluded from Android cloud auto-backup; it can be moved by device-to-device transfer, or exported to a file you choose.
+    Contact: <a href="mailto:azlibra.yolo@gmail.com">azlibra.yolo@gmail.com</a>
+  </p>
+</main>
+</body>
+</html>
